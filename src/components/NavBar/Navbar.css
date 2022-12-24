@@ -1,0 +1,38 @@
+.navbar{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 87, 168);
+    padding: 0.7rem 2.2rem;
+}
+
+.search span{
+    font-size: 1.3em;
+}
+
+.search input{
+    background-color: rgba(255, 255, 255, 0.637);
+    padding: .5em;
+    border: none;
+    border-radius: 3px;
+    margin-left: 1em;
+    font-size: 1em;
+    text-indent: 25px;
+}
+
+.search i{
+    color: rgba(255, 255, 255, 0.445);
+    position: absolute;
+    padding: 0.7em 1.5em;
+}
+
+@media screen and (max-width: 480px){
+    .search span{
+        display: none;
+    }
+    .search input{
+        width: 100px;
+    }
+}
